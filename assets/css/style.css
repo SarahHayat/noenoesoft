@@ -1,0 +1,109 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-shadow: 1px 15px 20px -10px grey;
+}
+
+nav {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #6f6f6f;
+    font-size: 1.5em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.logo img {
+    height: 100px;
+}
+
+.addPoste{
+    width: 60%;
+    margin : auto;
+    padding-top: 10%;
+
+}
+.form{
+    background-color: rgba(130, 222, 222, 0.39);
+    padding: 5%;
+}
+.form input, textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#poste {
+    width: 50%;
+    margin : auto;
+    padding : 0 5%;
+}
+
+#candidat {
+    width: 50%;
+    margin-right: 5%;
+    align-items: center;
+    background-color: rgba(130, 222, 222, 0.39);
+}
+
+#form_candidat{
+
+    padding:2% 5%;
+}
+#form_candidat input, textarea {
+    padding: 10px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#form_candidat div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#form_candidat h2{
+    text-align: center;
+    color: #7080d0;
+}
+.message {
+    width: 100%;
+}
+.message textarea{
+    width: 60%;
+}
+#btn_envoyer{
+    width: 100%;
+}
+#candidater {
+    display: flex;
+    margin-top: 5%;
+}
+
+.label {
+    width: 10%;
+}
+
+.validate {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5%;
+}
