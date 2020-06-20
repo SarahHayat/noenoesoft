@@ -24,7 +24,7 @@ while ($donnees = $req->fetch()) {
                     $req = $sql->getLastCandidat();
                     $donnees = $req->fetch();
                     ?>
-                    <div>Merci <?php  echo $donnees['prenom']?> !</div>
+                    <div><b>Merci <?php  echo $donnees['prenom']?> !</b></div>
                     <div>Nous reviendrons vers vous prochainement.</div>
                 </div>
         </section>
